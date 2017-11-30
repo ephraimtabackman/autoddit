@@ -1,0 +1,66 @@
+{
+  "d565302f-2913-473b-8a3f-2e8098496377": {
+    "id": "d565302f-2913-473b-8a3f-2e8098496377",
+    "text": "The main component is the Dosa, which is a pancake from the Indian subcontinent, made from a fermented batter. Its main ingredients are rice and black gram! That is filled with a curried potato which contains mustard seeds among other delicious spices!",
+    "submitted": 1480248932,
+    "username": "johnny",
+    "votes": {
+      "billyw": 1,
+      "maryk": 1
+    },
+    "comments": [
+      "b321115e-f4db-468e-aac8-078b7c58e867"
+    ]
+  },
+  "b741faa2-2238-433e-93b4-ce9b8b7d2db5": {
+    "id": "b741faa2-2238-433e-93b4-ce9b8b7d2db5",
+    "text": "Another comment",
+    "submitted": 1510817713,
+    "username": "billyw",
+    "votes": {
+      "samuel": -1,
+      "maryk": 1
+    },
+    "comments": []
+  },
+  "4932002a-287b-49c4-8482-fbb869f5277e": {
+    "id": "4932002a-287b-49c4-8482-fbb869f5277e",
+    "text": "This is a second comment for the first link",
+    "submitted": 1510904113,
+    "username": "billyw",
+    "votes": {
+      "samuel": -1,
+      "maryk": 1,
+      "james": 1,
+      "terry": 1,
+      "oscar": 1,
+      "johnm": 1
+    },
+    "comments": []
+  },
+  "b321115e-f4db-468e-aac8-078b7c58e867": {
+    "id": "b321115e-f4db-468e-aac8-078b7c58e867",
+    "text": "This is a comment on a comment",
+    "submitted": 1510911313,
+    "username": "johnny",
+    "votes": {
+      "oscar": 1,
+      "johnm": 1
+    },
+    "comments": [
+      "e99f02af-a805-4d3c-bc65-eb6c16004acf"
+    ]
+  },
+  "e99f02af-a805-4d3c-bc65-eb6c16004acf": {
+    "id": "e99f02af-a805-4d3c-bc65-eb6c16004acf",
+    "text": "This is a comment on a comment on a comment (nested twice)",
+    "submitted": 1510912333,
+    "username": "billyw",
+    "votes": {
+      "james": 1,
+      "terry": 1,
+      "oscar": 1
+    },
+    "comments": []
+  }
+}

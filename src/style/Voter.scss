@@ -1,0 +1,49 @@
+@import "global";
+
+.Voter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 46px;
+  width: 46px;
+  height: 56px;
+  margin: 0;
+
+  .UpArrow, .DownArrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: FontAwesome;
+    cursor: pointer;
+  }
+  
+  .UpArrow:after {
+    content: '\f062';
+    color: #999999;
+  }
+  
+  .DownArrow:after {
+    content: '\f063';
+    color: #CCCCCC;
+  }
+
+  .Score {
+    font-weight: bold;
+    color: #CCCCCC;
+  }
+
+  &.voted-up {
+    .UpArrow:after, .Score {
+      color: #FF8B60;
+    }
+  }
+
+  &.voted-down {
+    .DownArrow:after, .Score {
+      color: #9494FF;
+    }
+  }
+
+}
+

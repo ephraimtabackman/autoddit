@@ -1,0 +1,8 @@
+export const SET_USERNAME = 'SET_USERNAME';
+export const MERGE_LINKS = 'MERGE_LINKS';
+export const MERGE_COMMENTS = 'MERGE_COMMENTS';
+export const ADD_LINK = 'ADD_LINK';
+export const ADD_COMMENT = 'ADD_COMMENT';
+export const SET_VOTE = 'SET_VOTE';
+export const OPEN_COMMENT_MODAL = 'OPEN_COMMENT_MODAL';
+export const CLOSE_COMMENT_MODAL = 'CLOSE_COMMENT_MODAL';

@@ -1,0 +1,8 @@
+@import "global";
+
+.LinksActions {
+  display: flex;
+  justify-content: flex-end;
+  padding: $standard-margin;
+  border-bottom: solid 1px #CCCCCC;
+}

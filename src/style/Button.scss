@@ -1,0 +1,23 @@
+button.Button {
+  font-size: 1em;
+  border: solid 1px #D0D0D0;
+  border-radius: 4px;
+  background: #FFFFFF;
+  padding: 5px 15px;
+  
+  &:enabled {
+    cursor:pointer;    
+  }
+
+  &.small {
+    font-size: .7em;
+    border-radius: 2px;
+    padding: 2px 3px;
+  }
+
+  &.add:before {
+    content: '\f067';
+    font-family: FontAwesome;
+    margin: 0 10px 0 0;
+  }
+}

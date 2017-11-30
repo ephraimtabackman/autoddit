@@ -1,0 +1,23 @@
+.Submit {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  .instructions {
+    text-align: center;
+    margin: 0 0 20px 0;
+  }
+
+  p {
+    width: 100%;
+    text-align: center;
+  }
+
+  input {
+    font-size: 1.5em;
+    padding: 10px;
+    max-width: 80%;
+  }
+}

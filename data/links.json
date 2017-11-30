@@ -1,0 +1,37 @@
+{
+  "ef1eced6-c0d8-4405-adfb-e061d1ed3aad": {
+    "id": "ef1eced6-c0d8-4405-adfb-e061d1ed3aad",
+    "url": "https://www.autodesk.com/",
+    "image": "https://picsum.photos/99/102",
+    "title": "Autodesk Web Site",
+    "submitted": 1480230807,
+    "username": "maryk",
+    "votes": {
+      "frank123": 1,
+      "johnny": -1,
+      "billyw": 1,
+      "maryk": 1
+    },
+    "comments": [
+      "d565302f-2913-473b-8a3f-2e8098496377",
+      "4932002a-287b-49c4-8482-fbb869f5277e"
+    ]
+  },
+  "da1eced7-c0d8-4405-adfb-e061d1ed3bbc": {
+    "id": "da1eced7-c0d8-4405-adfb-e061d1ed3bbc",
+    "url": "https://www.google.com/",
+    "image": "https://picsum.photos/88/63",
+    "title": "Google Web Site",
+    "submitted": 1480251111,
+    "username": "frank123",
+    "votes": {
+      "frank123": -1,
+      "johnny": -1,
+      "billyw": -1,
+      "maryk": 1
+    },
+    "comments": [
+      "b741faa2-2238-433e-93b4-ce9b8b7d2db5"
+    ]
+  }
+}

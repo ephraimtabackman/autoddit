@@ -1,0 +1,34 @@
+@import "global";
+
+.Link {
+  padding: $standard-margin 0;
+  overflow: hidden;
+
+  .Main {
+    display: flex;
+
+    .Image {
+      width: 80px;
+      height: 56px;
+      background-color: #D0D0D0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0 $standard-margin 0 0;
+    }
+
+    .Details {
+      display: flex;
+      flex-direction: column;
+      padding: 0 $standard-margin 0 0;
+      
+      .Title, .Title a {
+        color: $link-color;
+        font-size: 1.1em;
+        margin: 0 0 2px 0;
+      }
+    }
+  }
+
+}
+

@@ -1,0 +1,33 @@
+.CommentModal {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  .Header {
+    font-size: 1.25em;
+    text-align: center;
+    margin: 0 0 20px 0;
+  }
+
+  textarea {
+    display: block;
+    font-family: sans-serif;
+    padding: 6px;
+    height: 100px;
+  }
+
+  .ButtonBar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+
+    .Button {
+      margin: 0 10px;
+    }
+  }
+}
+
+/* Remove scroll on the body when react-modal is open */
+.ReactModal__Body--open {
+  overflow: hidden;
+}
