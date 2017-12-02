@@ -1,4 +1,5 @@
 export const SET_USERNAME = 'SET_USERNAME';
+export const LOAD_INITIAL_DATA = 'LOAD_INITIAL_DATA';
 export const MERGE_LINKS = 'MERGE_LINKS';
 export const MERGE_COMMENTS = 'MERGE_COMMENTS';
 export const ADD_LINK = 'ADD_LINK';

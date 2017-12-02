@@ -10,12 +10,12 @@ import CommentModalConnector from '../containers/CommentModalConnector';
 class App extends Component {
   static propTypes = {
     username: PropTypes.string,
-    fetchAllData: PropTypes.func.isRequired
+    fetchInitialData: PropTypes.func.isRequired
   };
 
   componentWillReceiveProps (nextProps) {
     if (nextProps.username && nextProps.username != this.props.username) {
-      this.props.fetchAllData();
+      this.props.fetchInitialData();
     }
   }
 

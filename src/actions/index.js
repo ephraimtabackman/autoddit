@@ -3,6 +3,7 @@ import moment from 'moment';
 
 import {
   SET_USERNAME,
+  LOAD_INITIAL_DATA,
   MERGE_LINKS,
   MERGE_COMMENTS,
   ADD_LINK,
@@ -19,6 +20,12 @@ export const setUsername = username => {
   };
 };
 
+export const fetchInitialData = () => {
+  return {
+    type: LOAD_INITIAL_DATA
+  };
+};
+
 export const mergeLinks = links => {
   return {
     type: MERGE_LINKS,
@@ -30,30 +37,6 @@ export const mergeComments = comments => {
   return {
     type: MERGE_COMMENTS,
     comments
-  }
-};
-
-export const fetchAllData = () => {
-  return (dispatch, getState) => {
-    const fetches = [];
-
-    const queueFetch = (name, url, actionCreator) => {
-      const entities = getState()[name];
-      if (entities && Object.keys(entities).length) {
-        console.log(name + ' has already been fetched');
-      } else {
-        const fetchFunc = fetch(url)
-          .then(response => response.json())
-          .then(entities => dispatch(actionCreator(entities)))
-          .catch(error => console.log('Error loading ' + name));
-        fetches.push(fetchFunc);
-      }  
-    };
-
-    queueFetch('links', 'api/links.json', mergeLinks);
-    queueFetch('comments', 'api/comments.json', mergeComments);
-    
-    return Promise.all(fetches);
   }
 };
 
